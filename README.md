@@ -16,3 +16,5 @@ Automated digest bot that publishes Atom feeds with paging/archives for GitHub P
 ## Deployment
 
 - GitHub Pages workflow (`.github/workflows/pages.yml`) runs daily (cron) and on demand, generates feeds via `run.py`, and publishes the `public` directory (XML only) to Pages. Requires the `OPENAI_API_KEY` secret. Optionally set `FEED_BASE_URL` for a custom domain.
+
+42
